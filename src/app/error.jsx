@@ -9,7 +9,7 @@ export default function ErrorComponent({ error }) {
     };
 
     useEffect(() => {
-        console.log(error);
+        // console.log(error);
     }, [error]);
 
     return (
