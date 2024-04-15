@@ -8,9 +8,9 @@ export default function ErrorComponent({ error }) {
         console.log('Resetting...');
     };
 
-    useEffect(() => {
-        // console.log(error);
-    }, [error]);
+    // useEffect(() => {
+    //     // console.log(error);
+    // }, [error]);
 
     return (
         <div className='text-center mt-10'>
