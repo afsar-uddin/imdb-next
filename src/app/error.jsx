@@ -1,7 +1,8 @@
 "use client";
+
 import React, { useEffect } from 'react';
 
-export default function Error({ error }) {
+export default function ErrorComponent({ error }) {
     const reset = () => {
         // Define your reset logic here
         console.log('Resetting...');
